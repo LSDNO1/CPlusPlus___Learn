@@ -10,6 +10,5 @@
 #include"String.h"
 #include <cstring>
 #include<ostream>
-#include<algorithm>
 
 #endif //C___TEST_STADFX_H
