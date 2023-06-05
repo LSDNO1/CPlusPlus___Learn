@@ -1,23 +1,24 @@
 #include "stadfx.h"
 
 int main() {
-    String s("abc");
-    std::cout<<s<<std::endl;
 
-    String s1=s;//自动调用构造函数而非赋值函数
-    std::cout<<s1<<std::endl;
+    Circle C1(1.0);
+    C1.display();
 
-    String s2;
-    std::cout<<s2<<std::endl;
-    s2=s1;
-    std::cout<<s2<<std::endl;
+    Square S1(2.0);
+    S1.display();
 
-    //移动构造函数
-    String s3(std::move(s1));
-    std::cout<<s3<<std::endl;
+    //定义shape指针
+    const int ptrnum=2;
+    Shape* ptr[ptrnum];
+    ptr[0]=&C1;
+    ptr[1]=&S1;
+    for(int i=0;i<ptrnum;i++)
+    {
+        ptr[i]->display();
+    }
 
-    String s4;
-    s4=std::move(s3);//移动赋值函数
-    std::cout<<s4<<std::endl;
+
+
     return 0;
 }
