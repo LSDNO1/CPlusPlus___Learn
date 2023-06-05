@@ -11,5 +11,6 @@
 #include <cstring>
 #include<ostream>
 #include"Shape.h"
+#include "Singleton.h"
 
 #endif //C___TEST_STADFX_H
