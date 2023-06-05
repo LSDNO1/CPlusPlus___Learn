@@ -10,5 +10,6 @@
 #include"String.h"
 #include <cstring>
 #include<ostream>
+#include"Shape.h"
 
 #endif //C___TEST_STADFX_H
