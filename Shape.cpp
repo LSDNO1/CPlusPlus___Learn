@@ -8,8 +8,15 @@ void Shape::display()
 {
     std::cout<<Area()<<std::endl;
 }
+
 //初始化
 Circle::Circle(double m):_radius(m){};
+//.....对比两种构造函数区别
+/*Circle::Circle(double m)
+{
+    _radius=m;
+}*/
+
 //重写Area函数的实现
 double Circle::Area()const
 {
@@ -22,4 +29,14 @@ Square::Square(double m):_len(m){}
 double Square::Area() const
 {
     return _len*_len;
+}
+
+void Circle::Show()
+{
+    std::cout<<"Circle"<<std::endl;
+}
+
+void Square::Show()
+{
+    std::cout<<"Square"<<std::endl;
 }

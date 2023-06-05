@@ -10,14 +10,18 @@ class Shape
 {
 public:
     virtual double Area() const =0;
+    virtual void Show()=0;
     void display();
+private:
+    int _color;
 };
 
 class Circle:public Shape
 {
 public:
     Circle(double m);
-    double Area() const ;
+    virtual void Show();
+    virtual double Area() const ;
 private:
     double _radius;
 };
@@ -26,7 +30,8 @@ class Square:public Shape
 {
 public:
     Square(double m);
-    double Area()const;
+    virtual double Area()const;
+    virtual void Show();
 private:
     double _len;
 };

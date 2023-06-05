@@ -18,7 +18,9 @@ int main() {
         ptr[i]->display();
     }
 
-
+    S1.Show();
+    C1.Show();
+    std::cout<<sizeof(C1)<<std::endl;//24,在64位平台_vfptr为8个字节
 
     return 0;
 }
