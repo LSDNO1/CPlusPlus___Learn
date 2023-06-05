@@ -35,7 +35,7 @@ int main()
 
 ```
 
-![](C:\Users\WLSD\AppData\Roaming\Typora\typora-user-images\image-20230605203740448.png)
+![image-20230605203740448](D:\c++_test\image-20230605203740448.png)
 
 #### 特别注意：
 
