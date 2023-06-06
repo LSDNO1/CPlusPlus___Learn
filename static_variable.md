@@ -36,6 +36,7 @@ int main()
 ```
 
 ![image-20230605203740448](D:\c++_test\image-20230605203740448.png)
+https://github.com/LSDNO1/cpp_primitive/blob/master/image-20230605203740448.png
 
 #### 特别注意：
 
