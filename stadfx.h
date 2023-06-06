@@ -12,5 +12,8 @@
 #include<ostream>
 #include"Shape.h"
 #include "Singleton.h"
+#include <list>
+#include "Observerable.h"
+#include "Observer.h"
 
 #endif //C___TEST_STADFX_H

@@ -3,4 +3,4 @@ project(c___test)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(c___test main.cpp String.cpp String.h stadfx.h Shape.cpp Shape.h Singleton.cpp Singleton.h)
+add_executable(c___test main.cpp String.cpp String.h stadfx.h Shape.cpp Shape.h Singleton.cpp Singleton.h Observerable.cpp Observerable.cpp Observerable.h Observer.h Observer_actions.cpp)
