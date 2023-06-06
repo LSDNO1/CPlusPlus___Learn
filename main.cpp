@@ -1,46 +1,8 @@
 #include "stadfx.h"
 
-class user1:public Observer
-{
-public:
-    virtual void update(void *s)
-    {
-        std::cout<<"user1 get News :"<<(char*)s<<std::endl;
-    }
-};
-
-class user2:public Observer
-{
-public:
-    virtual void update(void *s)
-    {
-        std::cout<<"user2 get News :"<<(char*)s<<std::endl;
-    }
-};
-
-class New:public Observerable
-{
-public:
-    virtual void GetSomeChange(std::string s)
-    {
-        SetChange("News"+s);
-    };
-};
-
 int main()
 {
-    user1 u1;
-    user2 u2;
-    New n1;
-    n1.GetSomeChange("T0");
 
-    n1.attach(&u1);
-    n1.attach(&u2);
-    n1.GetSomeChange("T1");
-    n1.ObserverCount();
-
-    n1.Detach(&u2);
-    n1.GetSomeChange("T2");
-    n1.ObserverCount();
+    
     return 0;
 }
