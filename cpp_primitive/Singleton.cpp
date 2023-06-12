@@ -21,10 +21,20 @@ void Singleton::Dosometing()
 
 Singleton::Singleton()
 {
-
+    std::cout<<"OK"<<std::endl;
 }
 
 Singleton::~Singleton()
 {
 
+}
+
+void Singleton::display()
+{
+    std::cout<<"YES"<<std::endl;
+}
+
+void Singleton::play()
+{
+    This->display();
 }

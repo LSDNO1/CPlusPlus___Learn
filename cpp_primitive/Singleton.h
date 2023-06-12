@@ -14,9 +14,11 @@ public:
     static const Singleton* getInstance();
     static void Dosometing();
     //将构造函数设置为私有函数，防止被调用产生新的对象
+    void play();
 private:
     Singleton();
     ~Singleton();
+    void display();
     static Singleton*This;//只在Singleton中可见，但是生命周期是全局
 };
 
