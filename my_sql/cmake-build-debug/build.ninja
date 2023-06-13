@@ -56,6 +56,13 @@ build CMakeFiles/my_sql.dir/main.cpp.obj: CXX_COMPILER__my_sql_Debug D$:/C++/c++
   OBJECT_DIR = CMakeFiles\my_sql.dir
   OBJECT_FILE_DIR = CMakeFiles\my_sql.dir
 
+build CMakeFiles/my_sql.dir/StudentManger.cpp.obj: CXX_COMPILER__my_sql_Debug D$:/C++/c++_test/my_sql/StudentManger.cpp || cmake_object_order_depends_target_my_sql
+  DEP_FILE = CMakeFiles\my_sql.dir\StudentManger.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/LenovoSoftstore/mysql/include
+  OBJECT_DIR = CMakeFiles\my_sql.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_sql.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target my_sql
@@ -64,7 +71,7 @@ build CMakeFiles/my_sql.dir/main.cpp.obj: CXX_COMPILER__my_sql_Debug D$:/C++/c++
 #############################################
 # Link the executable my_sql.exe
 
-build my_sql.exe: CXX_EXECUTABLE_LINKER__my_sql_Debug CMakeFiles/my_sql.dir/main.cpp.obj
+build my_sql.exe: CXX_EXECUTABLE_LINKER__my_sql_Debug CMakeFiles/my_sql.dir/main.cpp.obj CMakeFiles/my_sql.dir/StudentManger.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -llibmysql  -llibmysql  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LD:/LenovoSoftstore/mysql/lib

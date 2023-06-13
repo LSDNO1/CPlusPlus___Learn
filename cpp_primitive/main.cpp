@@ -2,7 +2,7 @@
 
 int main()
 {
-    Singleton::getInstance()->Dosometing();
-    Singleton::play();
+    Square a(1.0);
+
     return 0;
 }
