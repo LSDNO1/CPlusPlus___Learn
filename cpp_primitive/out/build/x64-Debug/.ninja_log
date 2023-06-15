@@ -1,14 +1,3 @@
 # ninja log v5
-16	1236	7076714253019130	CMakeFiles/c___test.dir/main.cpp.obj	1765bf613e4f82c5
-1245	1729	7076714256971326	c___test.exe	c86df76e6242e043
-23	1244	7076714253029206	CMakeFiles/c___test.dir/String.cpp.obj	7fb0178daf92e71
-29	1244	7076714253029206	CMakeFiles/c___test.dir/Shape.cpp.obj	37c2d7a2ad8823f3
-36	1238	7076714253029206	CMakeFiles/c___test.dir/Singleton.cpp.obj	452fefa86457957
-1	1523	7079946214802625	CMakeFiles/c___test.dir/main.cpp.obj	1765bf613e4f82c5
-5	1523	7079946214792364	CMakeFiles/c___test.dir/Shape.cpp.obj	37c2d7a2ad8823f3
-3	1524	7079946214802625	CMakeFiles/c___test.dir/String.cpp.obj	7fb0178daf92e71
-6	1524	7079946214792364	CMakeFiles/c___test.dir/Singleton.cpp.obj	452fefa86457957
-8	1527	7079946214863704	CMakeFiles/c___test.dir/Observerable.cpp.obj	45c6c4383dd4494a
-1527	3423	7079946227042101	c___test.exe	f3ceb4eca3c61c6e
-2	782	7079958986948973	CMakeFiles/c___test.dir/main.cpp.obj	1765bf613e4f82c5
-783	914	7079958987957268	c___test.exe	f3ceb4eca3c61c6e
+2	372	7085223526504272	CMakeFiles/cpp_primitve.dir/main.cpp.obj	1ed70be52c6bd058
+375	599	7085223528614186	cpp_primitve.exe	ad16167813072eed

@@ -8,4 +8,7 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <functional>
+#include <numeric>
+#include <string>
 #endif //CPP_ADVANCED_STADFX_H
