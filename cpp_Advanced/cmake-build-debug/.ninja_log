@@ -1,5 +1,16 @@
 # ninja log v5
-1	300	7080948715676744	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
-302	390	7080948716558653	cpp_Advanced.exe	20177154ddc7b61b
 2	282	7080949744923427	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
 283	366	7080949745743986	cpp_Advanced.exe	20177154ddc7b61b
+0	691	7085171108628983	build.ninja	e21b88ab74a21822
+2	895	7085171117740791	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
+895	1207	7085171120835804	cpp_Advanced.exe	20177154ddc7b61b
+2	284	7085171198698564	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
+284	367	7085171199506406	cpp_Advanced.exe	20177154ddc7b61b
+5	725	7085342723481666	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
+726	821	7085342724433960	cpp_Advanced.exe	20177154ddc7b61b
+2	463	7085346249846968	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
+463	555	7085346250743370	cpp_Advanced.exe	20177154ddc7b61b
+3	520	7085348561929217	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
+520	625	7085348562945533	cpp_Advanced.exe	20177154ddc7b61b
+2	515	7085353515535339	CMakeFiles/cpp_Advanced.dir/main.cpp.obj	31adfa38b116a134
+516	622	7085353516559952	cpp_Advanced.exe	20177154ddc7b61b

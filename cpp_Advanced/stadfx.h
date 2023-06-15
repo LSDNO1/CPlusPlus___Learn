@@ -6,4 +6,6 @@
 #define CPP_ADVANCED_STADFX_H
 #include <iostream>
 #include <string>
+#include <algorithm>
+#include <vector>
 #endif //CPP_ADVANCED_STADFX_H
