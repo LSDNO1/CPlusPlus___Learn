@@ -11,4 +11,5 @@
 #include <functional>
 #include <numeric>
 #include <string>
+#include <list>
 #endif //CPP_ADVANCED_STADFX_H
