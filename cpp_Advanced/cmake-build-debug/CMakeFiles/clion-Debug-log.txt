@@ -1,4 +1,116 @@
 "D:\IDE\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/IDE/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\C++\c++_test\cpp_Advanced -B D:\C++\c++_test\cpp_Advanced\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: D:/C++/c++_test/cpp_Advanced/cmake-build-debug
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Languages to be enabled may not be specified more than once at the same
+  time.  The following language has been specified multiple times: of
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error: Could not find cmake module file: CMakeDetermineconnectionCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakeconnectionCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermineandCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakeandCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminefunctionCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakefunctionCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermineofCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakeofCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminetheCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMaketheCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminesixCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakesixCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminemajorCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakemajorCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDeterminecomponentsCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakecomponentsCompiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermineSTLCompiler.cmake
+CMake Error: Could not find cmake module file: D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/3.25.2/CMakeSTLCompiler.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_connection_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_connection_COMPILER to the full path to the compiler, or to the
+  compiler name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeconnectionInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_and_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_and_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeandInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_function_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_function_COMPILER to the full path to the compiler, or to the
+  compiler name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakefunctionInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_of_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_of_COMPILER to the full path to the compiler, or to the compiler name
+  if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeofInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_the_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_the_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMaketheInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_six_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_six_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakesixInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_major_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_major_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakemajorInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_components_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_components_COMPILER to the full path to the compiler, or to the
+  compiler name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakecomponentsInformation.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_STL_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_STL_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeSTLInformation.cmake
+CMake Error: CMAKE_connection_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_and_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_function_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_of_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_the_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_six_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_major_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_components_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_STL_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "D:/C++/c++_test/cpp_Advanced/cmake-build-debug/CMakeFiles/CMakeOutput.log".

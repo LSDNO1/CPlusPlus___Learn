@@ -17,6 +17,12 @@ Circle::Circle(double m):_radius(m){};
     _radius=m;
 }*/
 
+//对于两种初始化方式对比
+
+//相比于第二种，不用对成员变量默认初始值而是直接赋值，速度快了
+
+
+
 //重写Area函数的实现
 double Circle::Area()const
 {

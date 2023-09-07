@@ -1,6 +1,4 @@
-# 空间配置器（allocator）(未完）
-
-## C++new操作符
+# C++new操作符
 
 ### new
 
